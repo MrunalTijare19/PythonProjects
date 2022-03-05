@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+body{
+    /* background-color: antiquewhite; */
+    background-image: url("images/bh.gif");
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.Search input{
+    margin:0px 0px 0px 100px;
+    padding: 2px;
+    font-size: 15px;
+    border-radius: 8px;
+
+}
+
+.Searchbtn button{
+    padding: 2px 3px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(191, 207, 211, 0.959);
+    
+}
+
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    margin: 0px 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 60%;
+    margin: 23px auto;
+    border-radius: 25px;
+    padding: 33px;
+    background-image: url("images/bh.gif");
+    /* background-image: url("images/dark-rider.jpg"); */
+    /* background-size: 1200px 500px; */
+    /* background-repeat: no-repeat; */
+    
+    
+}
+
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.icons{
+    margin-top: 13px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+/* .icons svg{
+    width: 40px;
+    cursor: pointer;
+} */
+
+#myProgessBar{
+    width: 80vh;
+    height: 4px;
+    cursor: pointer;
+}
+
+.SongItemContainer{
+    margin-top: 74px;
+}
+
+.SongItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.SongItem img{
+    width: 43px;
+    height: 43px;
+    margin: 0px 23px;
+    border-radius: 34px;
+    cursor: pointer;
+}
+
+.SongName{
+    cursor: pointer;
+
+}
+
+.songlistplay{
+    margin: 0 23px;
+    
+
+}
+
+.songlistplay i{
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
